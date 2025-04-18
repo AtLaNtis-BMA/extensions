@@ -1,0 +1,37 @@
+/* Popup container */
+.popup-container {
+    width: 180px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa; /* Couleur de fond claire */
+    border-radius: 50px; /* Bordures arrondies */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  /* Style du bouton */
+  .instagram-btn {
+    width: 160px;
+    height: 40px;
+    background: linear-gradient(45deg, #00a2ff, #008cff, #0059ff, #0004ff); /* Couleurs d'Instagram */
+    background-size: 400% 400%; /* Dégradé animé */
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 25px; /* Bordures arrondies */
+    transition: background-position 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .instagram-btn:hover {
+    background-position: 100% 0%; /* Animation au survol */
+  }
+  
+  .instagram-btn:focus {
+    outline: none;
+  }
+  
